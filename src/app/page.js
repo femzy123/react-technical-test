@@ -2,9 +2,5 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function ReviewPage() {
-  return (
-    <>
-        Hello World
-    </>
-  )
+  return <div className="text-3xl font-bold">Hello World</div>;
 }
